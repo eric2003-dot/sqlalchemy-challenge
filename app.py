@@ -21,7 +21,7 @@ Base.prepare(engine, reflect=True)
 #Base.classes.keys()
 
 # Save reference to the tables
-Measurement = Base.classes.measurement
+measurement = Base.classes.measurement
 Station = Base.classes.station
 
 #################################################
